@@ -24,7 +24,7 @@ p {
 	font-size: 40pt;
 	color: #A2AC62;
 	text-align: right;
-	animation: eye 5s infinite linear;
+	animation: title 1s infinite linear;
 }
 
 
@@ -118,10 +118,9 @@ p {
 }
 
 @keyframes title {
-	0%, 100% {top: 50%; left: 50%;}
-	30% {top: 80%; left: 80%;}
-	50% {top: 50%; left: 80%;}
-	80% {top: 80%; left: 50%;}
+	0%, 100% {color: #A2AC62 }
+	50% {color: #E07540 }
+
 }
 
 @keyframes asset {
